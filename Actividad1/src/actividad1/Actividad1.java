@@ -58,11 +58,15 @@ public class Actividad1 {
                     + "'Avenida Cervantes, Nº20','Panaderia');"
                     + "GO"
                     + "INSERT INTO BCHorario"
-                    + "VALUES ('Normal','1','07:00:00','21;00;00');"
+                    + "VALUES ('Normal','1','07:00:00','21:00.:00'),"
+                    + "('Normal','2','07:00:00','21:00.:00'),"
+                    + "('Normal','3','07:00:00','21:00.:00'),"
+                    + "('Normal','4','07:00:00','21:00.:00'),"
+                    + "('Normal','5','07:00:00','21:00.:00'),"
+                    + "('Normal','6','07:00:00','18:00.:00'),"
+                    + "('Normal','6');"
                     + "GO";
-            
-            sql += "INSERT INTO ";
-            
+                       
             
         }catch(SQLException e){
             System.out.println(e.getMessage());
